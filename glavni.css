@@ -1,0 +1,116 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f3f5;
+  }
+
+  .visina-100{
+    min-height: 100vh;
+  }
+
+  .pozadina{
+      background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('images/ls.jpg');
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+
+.linijaJava{
+    height: 50px!important;
+
+}
+
+  .slika{
+      border-radius: 20%;
+  }
+
+  .slova{
+      font-size: 27px;
+  }
+  .slovaM{
+      font-size: 18px;
+  }
+
+  .narandzasta{
+    color: #F15025;
+}
+
+.crvena{
+    color:#f73640;
+}
+a{
+    color: white;
+}
+
+.ikona {
+    padding: 10px 18px;
+    border: 3px solid white;
+    border-radius: 20%;
+    transition: 2s transform ease-in-out;
+}
+
+.ikona:hover {
+    color: white;
+    transform: scale(1.2) ;
+
+}
+
+.visina-40{
+    min-height: 40vh;
+}
+
+#vestine {
+	background-color: #353531;
+}
+
+
+
+#vestine .ikonica {
+	margin-top: -100px;
+	font-size: 70px;
+	color: #f73640;
+	border-radius: 50%;
+	padding: 20px;
+	background-color: #353531;
+
+}
+
+
+
+#vestine .card {
+	background-color: transparent;
+	border: 2px solid #f73640;
+	border-radius: 0;
+	transition: transform 4s ease-in-out;
+}
+
+#vestine .card:hover {
+	transform: translateY(-5%)
+}
+
+#vestine .list-group-item {
+	background-color: transparent;
+	color: white;
+	border: none;
+}
+
+#vestine .list-group-item:hover {
+	background-color: rgba(241, 80, 37, 0.6);
+}
+
+
+
+@media only screen and (max-width: 440px) {
+    body{
+        display: non;
+    }
+    .slovaM {
+        margin-left:5px!important;
+    }
+    .slova {
+        margin-left:10px!important;
+    }
+    .ikon{
+        margin-left:20px!important;
+    }
+}

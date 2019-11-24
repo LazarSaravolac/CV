@@ -7,6 +7,14 @@ body {
     min-height: 100vh;
   }
 
+  .prpr {
+      padding-top: 50px;
+  }
+
+  .prpr1 {
+      margin-top: 22px;
+  }
+
   .pozadina{
       background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('images/ls.jpg');
       background-attachment: fixed;
